@@ -45,36 +45,7 @@ My profile combines **business understanding** with **technical execution** — 
 
 ---
 
-### 🤖 Project 2 — Appointment Automation System
-**Client:** Consultorio Estar Natural (Natural Medicine Clinic)
-**Duration:** 3 weeks
-**Tools:** Google Forms · Google Sheets · Zapier · Gmail
-
-#### Problem
-The clinic managed appointments completely manually — patients called by phone, staff wrote in paper or Excel with no automation, and reminders were sent one by one via WhatsApp. This generated an absenteeism rate above 30%, wasted staff time, and made follow-up difficult.
-
-#### Solution
-End-to-end automation workflow using no-code tools:
-1. Google Form for appointment booking (name, phone, date, time, reason)
-2. Google Sheets as central appointment database
-3. **Zap 1 — Confirmation:** Trigger on new Google Sheets row → automatic confirmation email to patient via Gmail
-4. **Zap 2 — Reminder:** Daily schedule trigger → lookup tomorrow's appointments → send reminder email 24 hours before
-
-#### Results
-- ✅ 40% reduction in absenteeism in the first month
-- ✅ Staff saved ~2 hours/day previously spent on manual reminders
-- ✅ Clinic moved from paper management to a fully digital system at zero software cost
-- ✅ 2 active Zaps running in production
-
-#### Evidence
-- `zapier-01-google-form.png` — Live Google Form
-- `zapier-02-google-sheets-datos.png` — Google Sheets with appointment data
-- `zapier-03-flujo-completo.png` — Complete Zapier workflow (both Zaps ON)
-- `zapier-04-email-configuracion.png` — Email configuration with dynamic variables
-
----
-
-### 📦 Project 3 — Automated Logistics Delivery Reports
+### 📦 Project 2 — Automated Logistics Delivery Reports
 **Client:** Ramírez Eventos y Logística, Sogamoso, Boyacá
 **Duration:** 4 weeks
 **Tools:** Python · Pandas · OpenPyXL · GitHub · CSV
@@ -115,6 +86,35 @@ region_summary = df.groupby("region").agg(
 - `python-02-datos-csv.png` — Source CSV data
 - `python-03-codigo-script.png` — Python script code
 - `python-04-terminal-ejecucion.png` — Script running in terminal
+
+---
+
+### 🤖 Project 3 — Appointment Automation System
+**Client:** Consultorio Estar Natural (Natural Medicine Clinic)
+**Duration:** 3 weeks
+**Tools:** Google Forms · Google Sheets · Zapier · Gmail
+
+#### Problem
+The clinic managed appointments completely manually — patients called by phone, staff wrote in paper or Excel with no automation, and reminders were sent one by one via WhatsApp. This generated an absenteeism rate above 30%, wasted staff time, and made follow-up difficult.
+
+#### Solution
+End-to-end automation workflow using no-code tools:
+1. Google Form for appointment booking (name, phone, date, time, reason)
+2. Google Sheets as central appointment database
+3. **Zap 1 — Confirmation:** Trigger on new Google Sheets row → automatic confirmation email to patient via Gmail
+4. **Zap 2 — Reminder:** Daily schedule trigger → lookup tomorrow's appointments → send reminder email 24 hours before
+
+#### Results
+- ✅ 40% reduction in absenteeism in the first month
+- ✅ Staff saved ~2 hours/day previously spent on manual reminders
+- ✅ Clinic moved from paper management to a fully digital system at zero software cost
+- ✅ 2 active Zaps running in production
+
+#### Evidence
+- `zapier-01-google-form.png` — Live Google Form
+- `zapier-02-google-sheets-datos.png` — Google Sheets with appointment data
+- `zapier-03-flujo-completo.png` — Complete Zapier workflow (both Zaps ON)
+- `zapier-04-email-configuracion.png` — Email configuration with dynamic variables
 
 ---
 
