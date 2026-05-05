@@ -36,7 +36,16 @@ My profile combines **business understanding** with **technical execution** — 
 
 ---
 
-### 🤖 Project 1 — Appointment Automation System
+### 📋 Project 1 — Balanced Scorecard System (VBA)
+**Client:** Restaurante La Popa, Sogamoso, Boyacá  
+**Period:** 2021 — Business Administration degree (UPTC)  
+**Tools:** Excel · VBA Macros · Balanced Scorecard methodology  
+**Result:** 14 KPIs · 4 strategic perspectives · Automated traffic-light indicators  
+🔗 [View project](./Balanced-Scorecard-VBA)
+
+---
+
+### 🤖 Project 2 — Appointment Automation System
 **Client:** Consultorio Estar Natural (Natural Medicine Clinic)
 **Duration:** 3 weeks
 **Tools:** Google Forms · Google Sheets · Zapier · Gmail
@@ -65,7 +74,7 @@ End-to-end automation workflow using no-code tools:
 
 ---
 
-### 📦 Project 2 — Automated Logistics Delivery Reports
+### 📦 Project 3 — Automated Logistics Delivery Reports
 **Client:** Ramírez Eventos y Logística, Sogamoso, Boyacá
 **Duration:** 4 weeks
 **Tools:** Python · Pandas · OpenPyXL · GitHub · CSV
@@ -109,13 +118,13 @@ region_summary = df.groupby("region").agg(
 
 ---
 
-### 📊 Project 3 — Sales & Inventory Dashboards in Power BI
+### 📊 Project 4 — Sales & Inventory Dashboards in Power BI
 **Duration:** 3 weeks per client
 **Tools:** Power BI Desktop · Power Query · DAX · Excel
 
 ---
 
-#### 3A — La Ruana de Mi Pueblo
+#### 4A — La Ruana de Mi Pueblo
 **Client:** Artisanal ruana store, Nobsa, Boyacá
 **Period:** October 2025 – February 2026
 
@@ -138,7 +147,7 @@ Total Unidades = SUM(Ventas[cantidad])
 
 ---
 
-#### 3B — Lizzmore
+#### 4B — Lizzmore
 **Client:** Children and adult clothing store, Sogamoso, Boyacá
 **Period:** January 2025 – March 2026
 
